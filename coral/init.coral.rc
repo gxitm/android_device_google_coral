@@ -15,6 +15,7 @@
 #
 
 import /vendor/etc/init/hw/init.${ro.boot.hardware.platform}.rc
+import /vendor/etc/init/hw/init.okcar.rc
 
 on property:vendor.all.modules.ready=1
     chown system system /sys/class/spi_master/spi1/spi1.0/stm_fts_cmd
