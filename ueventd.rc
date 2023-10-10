@@ -140,6 +140,12 @@ firmware_directories /vendor/firmware_mnt/image/
 # ABC PCIE DMA
 /dev/abc-pcie-dma         0666   cameraserver camera
 
+# Hid
+/dev/hidg0             0660   system       system
+
+# Okcar
+/dev/okcar             0660   system       system
+
 # Resume-on-Reboot
 /dev/access-kregistry     0660   system system
 
